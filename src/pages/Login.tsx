@@ -19,6 +19,7 @@ export default function Login() {
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [successMessage, setSuccessMessage] = useState<string>("");
   const [failMessage, setFailMessage] = useState<string>("");
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [chooseLogin, setChooseLogin] = useState<boolean>(true);
   const [user, setUser] = useState<UserProps>(
     {
